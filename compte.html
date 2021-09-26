@@ -1,0 +1,90 @@
+<html>
+<HEAD>
+<TITLE> INSCRIPTION</TITLE>
+<link rel="stylesheet" type ="text/css" href="inscription.css">
+
+</head>
+<body>
+  <ul>
+    <li class="active"><a href="#">votre compte</a> </li>
+    <li><a href="home.html">home</a> </li>
+    </ul>
+<form action="inscription.css" method="POST">
+  <div class="container">
+    <h1>INSCRIPTION</h1>
+<hr>
+<TABLE>
+   
+    
+<TR>
+<TD>
+    <label for="email"><b>Email</b></label></TD>
+<TD>
+    <input type="text" placeholder="Enter Email" name="email" required pattern="[a-z]@gmail.com"></TD></TR>
+
+
+<TR><TD>
+    <label for="psw"><b>Password</b></label></TD>
+<TD>
+    <input type="password" placeholder="Enter Password" name="psw" required ></TD></TR>
+
+
+<TR>
+<TD>
+    <label for="psw-repeat"><b>Repeat Password</b></label></TD>
+   <TD> <input type="password" placeholder="Repeat Password" name="psw-repeat" required></TD></TR>
+
+
+</TABLE>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" class="wess"> Remember me
+    </label>
+    <fieldset class="class1">
+      <legend style="color:white; font-size: 40PX;" >information carte bancaire </legend>
+     
+       
+              
+              <ul class="liste">
+              <li>
+                  <input type="radio" name="r2">visa
+              </li><br>
+              <li>
+                  <input type="radio" name="r2">e-dinar
+              </li><br>
+              <li>
+                  <input type="radio" name="r2">mastercard
+              </li><br><br>
+
+              <table border="0">
+                  
+           <tr><td>
+       
+              numero de carte </td><td>
+              
+              
+              <input type="number" required>
+          
+        
+        </td></tr>
+
+
+          <tr><td>
+              code CVV2 *    :</td><td><input type="number"  min=100 max=999>
+          </li></td></tr>
+        </table>
+    </ul>
+        
+     
+  </fieldset>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="reset" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+
+</form>
+</body>
+</html>
